@@ -14,3 +14,5 @@ for folder in folders:
 df = pd.DataFrame(files_info)
 newdf = df.drop_duplicates()
 newdf.to_csv("contracts_files72.csv", index=False)
+print("sums up my format below")
+print("gibberish above")
